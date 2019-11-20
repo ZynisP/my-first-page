@@ -3,20 +3,69 @@
     <head>
       <meta charset="UTF-8"> 
       <meta name="viewport" content="width=device-width, initial-scale=3.0">
-
       <link rel="stylesheet" type="text/css" href="./css.css">
-      <script
-        src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous"></script>
-      <script type="text/javascript" src="javascript.js"></script>
-
-      <title>Curriculum Vitae 2</title>
+      <script src="javascript.js" type="text/javascript"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>Professional Portfolio: Meghan Bishop - A Little About Myself</title>
       </head>
        <body>
-       		<div class="test" id="test" onclick="myFunction()">dasdsa</div>
-          <div class="test" id="test2" onclick="myFunction()">dasdsa</div>
-          <button onclick="myFunction()">Click me</button>
-          <img src="https://image.shutterstock.com/image-vector/example-signlabel-features-speech-bubble-260nw-1223219848.jpg">
+        <form name="myForm" onsubmit="return validateForm()">
+          Login: <input onchange="validateForm()"  type="text" name="fname">
+          Password: <input type="text" name="fname2">
+          <input type="submit" value="Zaloguj">
+        </form>
+       		<div class="top" id="top1">
+            <header role="banner">
+              <h1>PROFESSIONAL PORTFOLIO: MEGHAN BISHOP</h1>
+              <h3>THANKS FOR CHECKING OUT MY PORTFOLIO WEBSITE!</h3>
+            </header>
+          </div>
+          <div class="dropdown">
+   <i class="fa fa-align-justify"></i>
+    <button onclick="myFunction()" class="button2">click me></button>
+    
+  </div>
+</div>
+            <div class="info" id="info1">
+            <img src="https://www.lowis-gellen.com/lowis-gellen/wp-content/uploads/2018/02/Bishop-Meghan-180x270.jpg" class="img1"></img>
+            <h4>MEGAN (PORTFOLIOGEN)</h4>
+            <p>I am a teacher who most importantly embraces the development of a trusting environment with my students.</p>
+            <button onclick="window.location.href='https://www.portfoliogen.com/profile/meghan-b-93B9BDE0'" class="button1">My public profile</button>
+            <div>         
+                <a href="https://www.facebook.com/portfoliogen" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/portfoliogen" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/portfoliogen/" class="fa fa-instagram"></a>
+                <a href="https://pl.pinterest.com/portfoliogen/" class="fa fa-pinterest"></a>
+                <a href="https://www.linkedin.com/company/portfoliogen/" class="fa fa-linkedin"></a>
+            </div>
+          </div>
+          <div class="edu1" id="edu1">
+            <h1>Education</h1>
+          </div>
+          <div class="edu2" id="edu2">
+            <h4>University of Arizona</h4>
+            <a href="https://www.arizona.edu/">www.arizona.edu</a>
+            <img src="https://logo.clearbit.com/arizona.edu" class="img2">
+            <p>Sep 1999 - Aug 2003
+              Degree: BA
+              Major: Economics
+              Minor: Psychology
+              GPA: 3.75
+            </p>
+            <h4>Stanford University</h4>
+            <a href="https://www.stanford.edu/">www.stanford.edu</a>
+            <img src="https://logo.clearbit.com/stanford.edu" class="img2">
+            <p>Sep 2004 - Jun 2007
+              Degree: Master in Teaching
+              GPA: 3.95
+            </p>
+            <h4>Rutgers University-New Brunswick</h4>
+            <a href="https://newbrunswick.rutgers.edu">www.newbrunswick.rutgers.edu</a>
+            <img src="https://logo.clearbit.com/newbrunswick.rutgers.edu" class="img2">
+            <p>Sep 2019 - Present
+              Major: Sociology
+              GPA: 3.9
+            </p>
+          </div>
        </body>
   </html>

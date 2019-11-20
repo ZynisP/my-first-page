@@ -1,8 +1,84 @@
-div {
-	background-color: yellow;
+.top {
+	background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-size: cover;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	text-align: center; 
+	word-wrap: break-word;
+}
+.info{
+  background-color: white;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button1 {
+  background-color: GhostWhite; 
+  border: none;
+  border-radius: 5px; 
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  width: 100%; 
+  margin-bottom: 10px;
+}
+.button1:hover {
+  opacity: 0.7;
+  background-color: LightGray; 
+ }
+.fa {
+	padding: 10px;
+	display: inline-block;
+	font-size: 50px;
+	width: 15px; 
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white
+}
+.fa-instagram {
+  background: #517fa4;
+  color: white
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white
+}
+.fa-linkedin {
+  background: #007bb6;
+  color: white
+}
+.img1 {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
 }
 
-img {
-	width: 240px;
-	height: 50px;
+.edu2 {
+  background-color: white;
+  color: grey;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 200px; 
+  border: 1px;
 }
+.img2 {
+	width: 40px;
+	height: 40px;
+} 
+

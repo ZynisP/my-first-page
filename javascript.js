@@ -1,12 +1,19 @@
-window.onload = function() {
-	$("#test").onclick = () => {
-			myFunction()
-		};
+function validateForm() {
+	console.log("dass");
+  var x = document.forms["myForm"]["fname"].value;
+  console.log("dass", x);
 
-		console.log("dasdsad", $("#test"));
+  x = x + " aasdasdasdadsddad";
+  console.log("dass", x);
+
+  return false;
+}
+window.onload = function() {
 	
 }
 
 function myFunction() {
-	document.getElementById("test").style.border = "1px solid black";
+	console.log("dass")
 }
+
+
