@@ -5,67 +5,107 @@
       <meta name="viewport" content="width=device-width, initial-scale=3.0">
       <link rel="stylesheet" type="text/css" href="./css.css">
       <script src="javascript.js" type="text/javascript"></script>
+      <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <title>Professional Portfolio: Meghan Bishop - A Little About Myself</title>
       </head>
        <body>
         <form name="myForm" onsubmit="return validateForm()">
-          Login: <input onchange="validateForm()"  type="text" name="fname">
+          Login: <input onchange="validateForm()" type="text" name="fname">
           Password: <input type="text" name="fname2">
           <input type="submit" value="Zaloguj">
         </form>
-       		<div class="top" id="top1">
+       	<div class="top" id="top1">
             <header role="banner">
               <h1>PROFESSIONAL PORTFOLIO: MEGHAN BISHOP</h1>
               <h3>THANKS FOR CHECKING OUT MY PORTFOLIO WEBSITE!</h3>
             </header>
-          </div>
-          <div class="dropdown">
-   <i class="fa fa-align-justify"></i>
+         </div>
+         <div class="dropdown">
+            <button onclick="myButton()">Button <i class="fa fa-align-justify"></i></button>
     <button onclick="myFunction()" class="button2">click me></button>
-    
+    <p id="demo1"></p>
+    <p id="demo2"></p>
   </div>
 </div>
-            <div class="info" id="info1">
+          <div class="info" id="info1">
             <img src="https://www.lowis-gellen.com/lowis-gellen/wp-content/uploads/2018/02/Bishop-Meghan-180x270.jpg" class="img1"></img>
             <h4>MEGAN (PORTFOLIOGEN)</h4>
             <p>I am a teacher who most importantly embraces the development of a trusting environment with my students.</p>
-            <button onclick="window.location.href='https://www.portfoliogen.com/profile/meghan-b-93B9BDE0'" class="button1">My public profile</button>
-            <div>         
+            <button onclick="window.location.href='https://www.portfoliogen.com/profile/meghan-b-93B9BDE0'" class="button1">My public profile</button></div>
+          <div>         
                 <a href="https://www.facebook.com/portfoliogen" class="fa fa-facebook"></a>
                 <a href="https://twitter.com/portfoliogen" class="fa fa-twitter"></a>
                 <a href="https://www.instagram.com/portfoliogen/" class="fa fa-instagram"></a>
                 <a href="https://pl.pinterest.com/portfoliogen/" class="fa fa-pinterest"></a>
                 <a href="https://www.linkedin.com/company/portfoliogen/" class="fa fa-linkedin"></a>
-            </div>
           </div>
           <div class="edu1" id="edu1">
-            <h1>Education</h1>
+            <h3>Education</h3>
           </div>
           <div class="edu2" id="edu2">
-            <h4>University of Arizona</h4>
-            <a href="https://www.arizona.edu/">www.arizona.edu</a>
-            <img src="https://logo.clearbit.com/arizona.edu" class="img2">
-            <p>Sep 1999 - Aug 2003
-              Degree: BA
-              Major: Economics
-              Minor: Psychology
-              GPA: 3.75
-            </p>
-            <h4>Stanford University</h4>
-            <a href="https://www.stanford.edu/">www.stanford.edu</a>
-            <img src="https://logo.clearbit.com/stanford.edu" class="img2">
-            <p>Sep 2004 - Jun 2007
-              Degree: Master in Teaching
-              GPA: 3.95
-            </p>
-            <h4>Rutgers University-New Brunswick</h4>
-            <a href="https://newbrunswick.rutgers.edu">www.newbrunswick.rutgers.edu</a>
-            <img src="https://logo.clearbit.com/newbrunswick.rutgers.edu" class="img2">
-            <p>Sep 2019 - Present
-              Major: Sociology
-              GPA: 3.9
-            </p>
-          </div>
+            <h4>University of Arizona</h4></div>
+          <div class="edu3">
+            <a href="https://www.arizona.edu/">www.arizona.edu</a> </div>
+          <div>
+            <img src="https://logo.clearbit.com/arizona.edu" class="img2"></div>
+          <div class="edu4">
+            <p>Sep 1999 - Aug 2003</p></div>
+          <div class="edu4">
+            <p>Degree: BA</p></div>
+          <div class="edu4">
+            <p>Major: Economics</p></div>
+          <div class="edu4">
+            <p>Minor: Psychology</p></div>
+          <div class="edu4">
+            <p>GPA: 3.75</p></div>
+          <div class="edu2" id="edu2">
+              <h4>Stanford University</h4> </div>
+          <div class="edu3">
+            <a href="https://www.stanford.edu/">www.stanford.edu</a> </div>
+          <div>
+            <img src="https://logo.clearbit.com/stanford.edu" class="img2"></div>
+          <div class="edu4">
+            <p>Sep 2004 - Jun 2007</p></div>
+          <div class="edu4">
+            <p>Degree: Master in Teaching</p></div>
+          <div class="edu4">
+            <p>GPA: 3.95</p></div>
+          <div class="edu2" id="edu2">
+            <h4>Rutgers University-New Brunswick</h4></div>
+          <div class="edu3">
+            <a href="https://newbrunswick.rutgers.edu">www.newbrunswick.rutgers.edu</a></div>
+          <div>
+            <img src="https://logo.clearbit.com/newbrunswick.rutgers.edu" class="img2"></div>
+          <div class="edu4">
+            <p>Sep 2019 - Present</p></div>
+          <div class="edu4">
+            <p>Degree: BA</p></div>
+          <div class="edu4">
+            <p>Major: Sociology</p></div>
+          <div class="edu4">
+            <p>GPA: 3.9</p></div>
+
+          <!-- <div class="currency" id="EUR" id="USD" id="GBP">
+            <table class="cur">
+              <tr class="cur">
+                <th>Currency EUR</th>
+                <th>Currency USD</th>
+                <th>Currency GBP</th>
+              </tr>
+              <tr class="cur">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr class="cur">
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+              </tr>
+            </table>
+          </div> -->
+          <div id="waluta"> </div>
        </body>
   </html>
